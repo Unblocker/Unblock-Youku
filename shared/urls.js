@@ -263,6 +263,10 @@ unblock_youku.chrome_proxy_urls = unblock_youku.redirect_urls.concat([
     'https://interface.bilibili.com/*',
     'http://bangumi.bilibili.com/api/*',
     'https://bangumi.bilibili.com/*',
+    'http://live.bilibili.com/*',
+    'https://live.bilibili.com/*',
+    'http://api.live.bilibili.com/*',
+    'https://api.live.bilibili.com/*',
     // 'http://live-play.acgvideo.com/live/*',
     'http://m10.music.126.net/*', //for the testing of netease music
 
