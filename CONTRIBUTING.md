@@ -49,3 +49,55 @@
 虽说我们的开源项目主要由 JavaScript 写成，但是只需要非常简单的 JavaScript 知识。如果之前没有 JavaScript 经验但是想学习，推荐 [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/)，书很薄只有 176 页。
 
 Chrome extension 的开发可以阅读 [Google 官方的开发教程](https://developer.chrome.com/extensions)。只需要在 Chrome 里打开 `chrome://extensions`页面勾选上 `Developer mode`，就可以手动加载 Unblock Youku 的源码进行开发。
+
+# How to contribute to Unblock Youku?
+
+Thank you very much for your interest and support! Only with the support and contribution of everyone can the Unblock Youku project serve thousands of users for free and for a long time.
+
+This page contains some technical contributions to Unblock Youku. Donations are also welcome to support the cost of our servers, [donate to the Unblock Youku homepage] (https://www.uku.im/index_zhs.html).
+
+### I am having trouble using Unblock Youku
+
+If you find a problem while using Unblock Youku (for example, it doesn't work on some websites), please come and ask for help. Timely feedback can also help more friends solve similar problems.
+
+1. [First check our Frequently Asked Questions(FAQ)] (https://uku.im/faq) to see if the problem can be solved with the methods mentioned in the FAQ.
+2. [If the FAQ method does not solve your problem, please go to our forum for feedback] (https://uku.im/feedback). Please check before asking a question whether someone else has encountered similar problems and what their solutions were. Please use the template as much as possible to fill in the information (such as the URL of the problem, the software used, and your region). More information will help us solve the problem in a timely manner.
+
+### I want to propose new features or improvements
+
+We welcome comments and improvements for our open source projects. Our open source projects are inseparable from your help.
+
+Suggestions or comments can be submitted to [GitHub] (https://github.com/Unblocker/Unblock-Youku/issues) or [Sent to me directly] (https://zhuzhu.org/).
+
+### I want to use my technical expertise to help
+
+The programmer saves the world! :smile:
+
+It is a very fulfilling thing to let our technology serve thousands of users in the first place! Participating in the development and maintenance of open source projects is also an opportunity to exercise and demonstrate your technical strength. All technical contributions are welcome!
+
+##### Help users solve problems and get user feedback in the first time
+
+[Our Forum] (https://uku.im/feedback) often receives a variety of user questions or problems, such as: "Unblock Youku suddenly fails on a website". Reading these user questions from time to time allows us to keep abreast of user needs and solve problems.
+
+1. If the information provided by the user is incomplete, you can try to ask for more information.
+2. Test the information provided by the user, such as testing the video URL provided by the user to see if the problem described by the user can be reproduced.
+    * If the problem cannot be reproduced: you can provide the user with a simple solution, such as the method in [FAQ] (https://uku.im/faq), to see if it can solve the problem.
+    * If the issue can be reproduced: please help create an issue on GitHub to retell this issue from a technical perspective and to manage and track issues on GitHub.
+
+##### Help fix problems, add new features and improvements
+
+You can follow [Our GitHub Issue List] (https://github.com/Unblocker/Unblock-Youku/issues) to see existing issues that remain to be resolved. New ideas are also welcome to improve our open source projects.
+
+The entire Unblock Youku project has the following components:
+
+1. Chrome extension: written in JavaScript, the code is mainly in the two folders `chrome/` and `shared/`
+2. Normal mode proxy server: This is the Squid system running open source, we only need to change the configuration file. Specific configuration and installation visible [Wiki page] (https://uku.im/squid)
+3. Forwarding mode server program: written in JavaScript/Node.js, the code is mainly in the two folders `server/` and `shared/`
+
+(A more detailed description of the project structure is being prepared...)
+
+##### Technical knowledge preparation for Chrome extension development
+
+Although our open source project is primarily written in JavaScript, it only requires very simple JavaScript knowledge. If you don't have JavaScript experience already but want to learn, we recommend [JavaScript: The Good Parts] (http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/), which is only 176 pages .
+
+The development of the Chrome extension can be read [Google's official development tutorial] (https://developer.chrome.com/extensions). Just open the `chrome://extensions` page in Chrome and check `Developer mode` to manually load the source code of Unblock Youku for development.
