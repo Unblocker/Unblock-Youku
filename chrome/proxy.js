@@ -72,20 +72,3 @@ function setup_proxy() {
 
     console.groupEnd();
 }
-
-
-function clear_proxy() {
-    var proxy_config = {
-        mode: 'system'
-    };
-
-    chrome.proxy.settings.set(
-        {
-            value: proxy_config,
-            scope: 'regular'
-        },
-        function() {}
-    );
-    
-    console.log('proxy is removed (changed to system setting)');
-}

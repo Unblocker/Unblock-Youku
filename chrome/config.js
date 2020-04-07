@@ -18,7 +18,7 @@
 /*jslint browser: true */
 /*global chrome: false, get_storage: false, set_storage: false, new_random_ip: false */
 /*global setup_redirect: false, setup_header: false, setup_proxy: false, setup_timezone: false, setup_extra_header: false */
-/*global clear_redirect: false, clear_header: false, clear_proxy: false, clear_timezone: false */
+/*global clear_redirect: false, clear_header: false, clear_timezone: false */
 /*global ga_report_event: false, ga_report_ratio: false, ga_report_error: false */
 "use strict";
 
@@ -96,7 +96,7 @@ function clear_mode_settings(mode_name) {
         break;
     case 'normal':
         clear_header();
-        clear_proxy();
+        chrome.proxy.settings.clear()
         console.log('cleared settings for normal');
         break;
     default:
